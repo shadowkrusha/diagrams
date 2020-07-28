@@ -50,6 +50,7 @@ Node classes list of onprem provider.
 ## onprem.container
 
 - **diagrams.onprem.container.Docker**
+- **diagrams.onprem.container.Lxc**
 - **diagrams.onprem.container.Rkt**, **RKT** (alias)
 
 ## onprem.database
@@ -117,26 +118,38 @@ Node classes list of onprem provider.
 - **diagrams.onprem.monitoring.Sentry**
 - **diagrams.onprem.monitoring.Splunk**
 - **diagrams.onprem.monitoring.Thanos**
+- **diagrams.onprem.monitoring.Zabbix**
 
 ## onprem.network
 
 - **diagrams.onprem.network.Apache**
+- **diagrams.onprem.network.Bind9**
 - **diagrams.onprem.network.Caddy**
 - **diagrams.onprem.network.Consul**
 - **diagrams.onprem.network.Envoy**
 - **diagrams.onprem.network.Etcd**, **ETCD** (alias)
+- **diagrams.onprem.network.Glassfish**
+- **diagrams.onprem.network.Gunicorn**
 - **diagrams.onprem.network.Haproxy**, **HAProxy** (alias)
 - **diagrams.onprem.network.Internet**
 - **diagrams.onprem.network.Istio**
+- **diagrams.onprem.network.Jbossas**
+- **diagrams.onprem.network.Jetty**
 - **diagrams.onprem.network.Kong**
 - **diagrams.onprem.network.Linkerd**
 - **diagrams.onprem.network.Nginx**
 - **diagrams.onprem.network.Pfsense**, **PFSense** (alias)
 - **diagrams.onprem.network.Pomerium**
+- **diagrams.onprem.network.Powerdns**
 - **diagrams.onprem.network.Tomcat**
 - **diagrams.onprem.network.Traefik**
 - **diagrams.onprem.network.Vyos**, **VyOS** (alias)
+- **diagrams.onprem.network.Wildfly**
 - **diagrams.onprem.network.Zookeeper**
+
+## onprem.proxmox
+
+- **diagrams.onprem.proxmox.Pve**
 
 ## onprem.queue
 
@@ -154,6 +167,11 @@ Node classes list of onprem provider.
 
 - **diagrams.onprem.security.Trivy**
 - **diagrams.onprem.security.Vault**
+
+## onprem.storage
+
+- **diagrams.onprem.storage.Ceph**
+- **diagrams.onprem.storage.Glusterfs**
 
 ## onprem.vcs
 

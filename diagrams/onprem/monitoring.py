@@ -32,4 +32,8 @@ class Thanos(_Monitoring):
     _icon = "thanos.png"
 
 
+class Zabbix(_Monitoring):
+    _icon = "zabbix.png"
+
+
 # Aliases
